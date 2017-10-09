@@ -738,33 +738,33 @@
 <div class="contact fade" style="background-color:white; margin-top: 30px;">
 	<h2 class="header blue-text center-align">Contact Me</h2>
 <div class="row">
-    <form class="col s12">
+    <form class="col s12" action="https://formspree.io/your@email.com">
       <div class="row">
         <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate">
+          <input id="icon_prefix" type="text" class="validate" name="name" required="required">
           <label for="icon_prefix">First Name</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">phone</i>
-          <input id="icon_telephone" type="tel" class="validate">
+          <input id="icon_telephone" type="tel" class="validate" name="Telephone" required="required">
           <label for="icon_telephone">Telephone</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">email</i>
-          <input id="icon_telephone" type="tel" class="validate">
+          <input id="icon_telephone" type="tel" class="validate" name="email" required="required">
           <label for="icon_telephone">Your Email</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">location_on</i>
-          <input id="icon_telephone" type="tel" class="validate">
+          <input id="icon_telephone" type="tel" class="validate" name="Country" required="required">
           <label for="icon_telephone">Your Country</label>
         </div>
 
         <div class="row">
         <div class="input-field col l12 s12">
           <i class="material-icons prefix">mode_edit</i>
-          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+          <textarea id="icon_prefix2" class="materialize-textarea" name="Message" required="required"></textarea>
           <label for="icon_prefix2">Your Message</label>
         </div>
 
