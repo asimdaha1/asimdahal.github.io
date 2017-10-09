@@ -1,0 +1,88 @@
+
+body{
+	background-color: black;
+}
+
+.desc{
+	background-color:rgba(0,0,0,0.8);
+	color: white;
+	z-index: 10;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.parallax img{
+	z-index: 9;
+	display: block;
+}
+
+.parallax-container {
+      height: 600px;
+    }
+
+   .contact{
+   	
+   	padding: 20px;
+   	
+   }
+
+   #map {
+        height: 400px;
+        width: 100%;
+       }
+
+
+
+
+
+
+    blockquote{
+  display:block;
+  background: #aaa;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: cursive;
+  font-size: 16px;
+  line-height: 1.2;
+  color: black;
+  text-align: justify;
+  
+  /*Borders - (Optional)*/
+  border-left: 15px solid #428ff4;
+  border-right: 2px solid #428ff4;
+  
+  /*Box Shadow - (Optional)*/
+  
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+
+
+
+
+blockquote em{
+  font-style: italic;
+}
